@@ -142,21 +142,29 @@ Based on the analysis, the following recommendations may help improve customer r
 - **Pricing Strategy:** Review pricing plans and provide suitable options based on customer needs.
 - **Continuous Monitoring:** Perform regular churn analysis to identify changes in customer behavior.
 
-📊 Visualizations
-The project includes 10 visualizations. Three selected visualizations are presented below.
-1. Customer Signup Trend
-Shows how customer signups changed over time.
+## 📊 Visualizations
 
+A total of 10 visualizations were created using Matplotlib and Seaborn to explore customer behavior, identify churn patterns, and understand factors associated with customer retention.
 
-2. Churn by Contract Type
-Compares customer churn across different contract types.
+### 1. Customer Signup Trend
 
+A line chart showing customer signup trends over time.
 
-3. Monthly Charges vs Churn
-A violin plot comparing the distribution of monthly charges among churned and retained customers.
+![Customer Signup Trend](images/Customer%20Signup%20Trend.png)
 
+### 2. Churn by Contract Type
 
-The remaining visualizations are available in the images/ folder.
+A bar chart comparing customer churn across different contract types.
+
+![Churn by Contract Type](images/Churn%20by%20Contract%20Type.png)
+
+### 3. Monthly Charges vs Churn
+
+A violin plot comparing the distribution of monthly charges between churned and retained customers.
+
+![Monthly Charges vs Churn](images/Monthly%20Charges%20vs%20Churn.png)
+
+*The remaining visualizations are available in the [`images`](images/) folder.*
 
 ## ⚙️ Installation & Requirements
 
