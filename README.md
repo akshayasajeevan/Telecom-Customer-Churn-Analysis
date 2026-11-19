@@ -34,13 +34,13 @@ The goal is to generate meaningful insights and business recommendations that ca
 ```text
 Telecom-Customer-Churn-Analysis/
 │
-├── data/
-│   ├── Telecom Churn raw csv.csv
-│   └── Telecom Churn raw excel.xlsx
-│
 ├── cleaned_data/
 │   ├── telecom_churn_cleaned_csv.csv
 │   └── telecom_churn_cleaned_excel.xlsx
+│
+├── data/
+│   ├── Telecom Churn raw csv.csv
+│   └── Telecom Churn raw excel.xlsx
 │
 ├── images/
 │   ├── Churn Distribution.png
