@@ -142,29 +142,21 @@ Based on the analysis, the following recommendations may help improve customer r
 - **Pricing Strategy:** Review pricing plans and provide suitable options based on customer needs.
 - **Continuous Monitoring:** Perform regular churn analysis to identify changes in customer behavior.
 
-## 📊 Visualizations
-
+📊 Visualizations
 The project includes 10 visualizations. Three selected visualizations are presented below.
-
-### 1. Customer Signup Trend
-
+1. Customer Signup Trend
 Shows how customer signups changed over time.
 
 
-
-### 2. Churn by Contract Type
-
+2. Churn by Contract Type
 Compares customer churn across different contract types.
 
 
-
-### 3. Monthly Charges vs Churn
-
+3. Monthly Charges vs Churn
 A violin plot comparing the distribution of monthly charges among churned and retained customers.
 
 
-
-*The remaining visualizations are available in the `images/` folder.*
+The remaining visualizations are available in the images/ folder.
 
 ## ⚙️ Installation & Requirements
 
