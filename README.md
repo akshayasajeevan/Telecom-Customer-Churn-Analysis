@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Telecom Customer Churn Analysis is a data analytics project developed using Python to understand customer behavior and identify patterns associated with customer churn.
+Telecom Customer Churn Analysis is a Python-based data analytics project focused on understanding customer behavior and identifying patterns associated with customer churn.
 
 The project covers data cleaning, preprocessing, feature transformation, exploratory data analysis (EDA), and data visualization. It explores customer information such as tenure, contract type, payment method, internet service, and charges to identify factors associated with customer retention.
 
@@ -19,15 +19,15 @@ The goal is to generate meaningful insights and business recommendations that ca
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| Python | Data analysis |
-| Jupyter Notebook | Development and analysis |
-| Pandas | Data cleaning and manipulation |
-| NumPy | Numerical operations |
-| Matplotlib | Data visualization |
-| Seaborn | Statistical visualization |
-| CSV & Excel | Data storage and handling |
+| Tool             | Purpose                        |
+| ---------------- | ------------------------------ |
+| Python           | Data analysis                  |
+| Jupyter Notebook | Development and analysis       |
+| Pandas           | Data cleaning and manipulation |
+| NumPy            | Numerical operations           |
+| Matplotlib       | Data visualization             |
+| Seaborn          | Statistical visualization      |
+| CSV & Excel      | Data storage and handling      |
 
 ## 📂 Project Structure
 
@@ -95,8 +95,8 @@ Both raw and cleaned datasets are available in CSV and Excel formats.
 ### 3. Outlier Detection & Handling
 
 - Used the Interquartile Range (IQR) method to identify potential outliers in selected numerical columns.
-- Inspected the detected values.
-- Retained potential outliers that could represent valid customer records.
+- Applied IQR-based filtering to the `tenure` and `monthly_charges` columns.
+- Removed records that fell outside the calculated lower and upper limits for these columns.
 
 ### 4. Data Transformation
 
@@ -150,19 +150,19 @@ The project includes 10 visualizations. Three selected visualizations are presen
 
 Shows how customer signups changed over time.
 
-![Customer Signup Trend](images/Customer%20Signup%20Trend.png)
+
 
 ### 2. Churn by Contract Type
 
 Compares customer churn across different contract types.
 
-![Churn by Contract Type](images/Churn%20by%20Contract%20Type.png)
+
 
 ### 3. Monthly Charges vs Churn
 
 A violin plot comparing the distribution of monthly charges among churned and retained customers.
 
-![Monthly Charges vs Churn](images/Monthly%20Charges%20vs%20Churn.png)
+
 
 *The remaining visualizations are available in the `images/` folder.*
 
@@ -200,7 +200,7 @@ The analysis helped identify customer churn patterns and explore factors associa
 
 ## 👩‍💻 Author
 
-**Akshaya S**  
+**Akshaya S**
 B.Sc. Computer Science Graduate | Entry-Level Data Analyst
 
 - **GitHub:** [akshayasajeevan](https://github.com/akshayasajeevan)
