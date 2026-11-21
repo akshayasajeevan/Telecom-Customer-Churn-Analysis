@@ -128,6 +128,7 @@ Created 10 visualizations using Matplotlib and Seaborn to understand customer be
 - Electronic check payments accounted for 45.1% of all churned customers.
 - Established customers showed the highest churn rate among the analyzed tenure groups (8.78%).
 - Churned and retained customers had the same median monthly charges (70.18).
+- Male and female customers have almost identical churn rates. Senior customers and customers with dependents show slightly higher churn rates, but the differences are small.
 
 *Note: These findings describe patterns in the analyzed dataset and do not establish cause-and-effect relationships.*
 
@@ -141,6 +142,7 @@ Based on the analysis, the following recommendations may help improve customer r
 - **Customer Retention:** Strengthen customer relationships through suitable retention strategies.
 - **Pricing Strategy:** Review pricing plans and provide suitable options based on customer needs.
 - **Continuous Monitoring:** Perform regular churn analysis to identify changes in customer behavior.
+- **Customer Tenure:** Pay attention to established customers, as this group has the highest churn rate in the analysis. Provide suitable support and retention offers.
 
 ## 📊 Visualizations
 
